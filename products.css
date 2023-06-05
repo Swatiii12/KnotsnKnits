@@ -1,0 +1,33 @@
+@import "style.css";
+@import "util.css";
+
+img {
+  width: 20%;
+  height: auto;
+}
+
+.productimgleft {
+  align-items: center;
+}
+
+.productimgcenter {
+  position: absolute;
+  left: 750px;
+}
+
+span {
+  position: absolute;
+}
+
+.cart {
+  width: 100%;
+  height: 100%;
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.cartImg > img {
+  width: 200px;
+}

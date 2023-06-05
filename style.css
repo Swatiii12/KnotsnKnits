@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Verdana, sans-serif;
+}
+
+header {
+  box-sizing: border-box;
+  background-color: blanchedalmond;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0%;
+}
+
+button {
+  padding: 8px 20px;
+  height: 142%;
+  background-color: beige;
+}
+
+button:hover {
+  box-shadow: 0 0 5px 5px #f1812b inset;
+}
+
+h1 {
+  display: flex;
+  box-sizing: border-box;
+  background-color: burlywood;
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+  text-align: right;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid brown;
+  border-color: brown;
+  margin-bottom: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.left img {
+  height: 55px;
+  width: 55px;
+}
+
+.container {
+  max-width: 90vw;
+  margin: auto;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0px 10px;
+}
+
+nav ul li:hover {
+  box-shadow: 0 0 8px 8px #f1812b inset;
+}
+
+h1 ul li {
+  list-style: none;
+  padding: 0px 10px;
+  flex: auto;
+  text-align: right;
+  justify-content: right;
+  display: inline;
+}
+
+img {
+  height: auto;
+  width: 45%;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  display: inline;
+}
+
+.mySlides {
+  display: contents;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+h4 {
+  font-family: TCM;
+  font-size: 20px;
+}
+
+p {
+  font-family: TCM;
+  color: #51504e;
+  font-size: 16px;
+}
